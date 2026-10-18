@@ -1,6 +1,6 @@
 # Lemo-Opuscar attribution (MIT)
 
-The samples/styles tagged `ukiyoe-woodblock`, `red-papercut-window`, `one-line-drawing` and `silent-film-print` use 6-second excerpts of the official demo films and ideas from https://github.com/lemomo-ai/lemo-opuscar . Style descriptions were rewritten by us.
+The samples/styles tagged `ukiyoe-woodblock`, `red-papercut-window`, `one-line-drawing`, `silent-film-print` (batch b11, 2026-10-17) and `whiteboard-explainer`, `chinese-ink-wash`, `watercolor-journal`, `art-deco-gold` (batch b12, 2026-10-18) use 6-second excerpts of the official demo films and ideas from https://github.com/lemomo-ai/lemo-opuscar . Style descriptions were rewritten by us.
 
 ---
 
