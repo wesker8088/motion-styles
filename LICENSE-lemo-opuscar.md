@@ -1,6 +1,8 @@
-# Lemo-Opuscar attribution (MIT)
+# Lemo-Opuscar attribution (MIT · CC BY 4.0)
 
-The samples/styles tagged `ukiyoe-woodblock`, `red-papercut-window`, `one-line-drawing`, `silent-film-print` (batch b11, 2026-10-17) and `whiteboard-explainer`, `chinese-ink-wash`, `watercolor-journal`, `art-deco-gold` (batch b12, 2026-10-18) use 6-second excerpts of the official demo films and ideas from https://github.com/lemomo-ai/lemo-opuscar . Style descriptions were rewritten by us.
+The samples/styles tagged `ukiyoe-woodblock`, `red-papercut-window`, `one-line-drawing`, `silent-film-print` (batch b11, 2026-10-17), `whiteboard-explainer`, `chinese-ink-wash`, `watercolor-journal`, `art-deco-gold` (batch b12, 2026-10-18) and `hd-2d-diorama`, `satellite-briefing`, `white-model-projection` (batch b13, 2026-10-19) use 6-second excerpts of the official demo films and ideas from https://github.com/lemomo-ai/lemo-opuscar by LemoLab. Style descriptions were rewritten by us.
+
+Licensing as stated in the upstream README (since 2026-10-18): code and docs are MIT (text below); the demo films and their stills are licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) — credit: LemoLab, https://github.com/lemomo-ai/lemo-opuscar . Changes made by us: excerpted to 6 seconds and transcoded to 1280×720. Third-party assets inside the demos keep their own licences (see each demo's CREDITS): the `hd-2d` excerpt contains the music "Precipice" by Scott Buckley (CC BY 4.0, https://www.scottbuckley.com.au/library/precipice/); the `satellite-briefing` excerpt shows Landsat imagery courtesy of the U.S. Geological Survey / NASA (public domain) and NASA Blue Marble; the `white-model` excerpt uses 3DBAG data by 3DGI and TU Delft (CC BY 4.0) and BAG / BGT (CC0).
 
 ---
 
