@@ -1,6 +1,6 @@
 # vibe-knowledge-film attribution (MIT)
 
-The styles tagged `vibe-nocturne` and `vibe-fable` (batch b17, 2026-10-22) are based on https://github.com/HeyChengC/vibe-knowledge-film by HeyChengC (commit 62d5150). Their samples are 6-second excerpts of our own renders of the repository's own example projects `examples/fold_C` and `examples/pigeon_B` (the author's own topics), made with the repository's unmodified engine (`engine/render.py`, `engine/audio.py`); the scene code was not changed. Changes made by us: excerpted to 6 seconds and transcoded to 1280×720. Style descriptions were rewritten by us.
+The style tagged `vibe-nocturne` (batch b17, 2026-10-22) is based on https://github.com/HeyChengC/vibe-knowledge-film by HeyChengC (commit 62d5150). Its sample is a 6-second excerpt of our own render of the repository's own example project `examples/fold_C` (the author's own topic), made with the repository's unmodified engine (`engine/render.py`, `engine/audio.py`); the scene code was not changed. Changes made by us: excerpted to 6 seconds and transcoded to 1280×720. Style descriptions were rewritten by us.
 
 Per the upstream README, the engine, scripts and the method descriptions in the docs are MIT (text below). The briefs filled in from other people's films in `references/analysis.md` and `references/prompts.md`, and the study recreations `examples/stim_B` and `examples/info_C`, belong to their original authors — we did not use them as samples. Fonts are under the SIL Open Font License and are not redistributed.
 
