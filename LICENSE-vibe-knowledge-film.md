@@ -1,0 +1,36 @@
+# vibe-knowledge-film attribution (MIT)
+
+The styles tagged `vibe-nocturne` and `vibe-fable` (batch b17, 2026-10-22) are based on https://github.com/HeyChengC/vibe-knowledge-film by HeyChengC (commit 62d5150). Their samples are 6-second excerpts of our own renders of the repository's own example projects `examples/fold_C` and `examples/pigeon_B` (the author's own topics), made with the repository's unmodified engine (`engine/render.py`, `engine/audio.py`); the scene code was not changed. Changes made by us: excerpted to 6 seconds and transcoded to 1280×720. Style descriptions were rewritten by us.
+
+Per the upstream README, the engine, scripts and the method descriptions in the docs are MIT (text below). The briefs filled in from other people's films in `references/analysis.md` and `references/prompts.md`, and the study recreations `examples/stim_B` and `examples/info_C`, belong to their original authors — we did not use them as samples. Fonts are under the SIL Open Font License and are not redistributed.
+
+---
+
+MIT License
+
+Copyright (c) 2026
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+参考片内容不在上述许可之内。
+
+`references/analysis.md`、`references/prompts.md` 第二节、`references/visualization.md` 里按参考片记下的字幕和画面，以及 `examples/stim_B`、`examples/info_C` 的片名、字幕和画面设计，来自他人的短片，版权属于原作者。这些材料只供学习对照，不授权复制、发布或当作自己的作品使用。
+做新片用 `python scripts/new_film.py` 建一个空骨架，照自己的分镜表现写。
