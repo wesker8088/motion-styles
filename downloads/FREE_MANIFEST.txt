@@ -1,0 +1,17 @@
+version: v0.1.0-free
+date: 2026-10-29 15:30 Asia/Shanghai
+skill_dir: motion-video-styles/
+style_count: 12
+slugs:
+  - editorial-thread
+  - bold-kinetic-launch
+  - kanji-op-titlecard
+  - woodcut-one-accent
+  - swiss-grid-motion
+  - ui-components-alive
+  - onetake-carry
+  - pcb-silk-reel
+  - dark-precision-product
+  - dual-mode-explainer
+  - powers-of-ten-3d
+  - whiteboard-explainer

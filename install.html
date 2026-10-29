@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>安装 · motion-video-styles</title>
+<style>
+:root{--paper:#F2EFE8;--card:#FBFAF6;--ink:#141414;--mute:#8A857B;--line:#DDD8CD;--accent:#E8462B}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif}
+code,kbd{font:12.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;background:#ECE8DF;padding:1px 5px;border-radius:3px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+header{max-width:760px;margin:0 auto;padding:48px 24px 8px}
+.nav{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:20px;font-size:13px}
+.nav a{color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:5px 12px;background:var(--card)}
+.nav a:hover{border-color:var(--ink);text-decoration:none}
+.nav .here{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+h1{font-size:clamp(28px,4.5vw,42px);line-height:1.15;margin:0 0 10px;letter-spacing:-.03em;font-weight:900}
+h1 i{font-style:normal;color:var(--accent)}
+.lead{color:var(--mute);margin:0 0 8px;max-width:640px}
+main{max-width:760px;margin:0 auto;padding:8px 24px 64px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:16px 0}
+h2{font-size:18px;margin:0 0 10px;font-weight:800}
+h3{font-size:15px;margin:16px 0 8px;font-weight:700}
+p,li{color:#2a2824}
+ul,ol{padding-left:1.25em;margin:8px 0}
+li{margin:4px 0}
+.note{font-size:13px;color:var(--mute);margin-top:10px}
+.table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+.table th,.table td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.table th{background:#ECE8DF;font-weight:700}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;vertical-align:middle}
+.badge-free{background:#E8F0E4;color:#2F5D2A}
+.badge-full{background:#E8ECF7;color:#2A3F7A}
+.badge-warn{background:#F3EFD8;color:#6B5A1E}
+pre{background:#1B1E24;color:#F1EEE7;padding:12px 14px;border-radius:8px;overflow:auto;font:12.5px/1.5 ui-monospace,Menlo,monospace;margin:8px 0}
+.tree{font:12.5px/1.55 ui-monospace,Menlo,monospace;background:#ECE8DF;padding:12px 14px;border-radius:8px;overflow:auto;white-space:pre}
+footer{max-width:760px;margin:0 auto;padding:0 24px 48px;color:var(--mute);font-size:13px}
+.btn{display:inline-block;background:var(--ink);color:var(--paper)!important;border:none;border-radius:8px;padding:12px 18px;font:inherit;font-weight:700;font-size:15px;cursor:pointer;text-decoration:none!important}
+.btn:hover{opacity:.92;text-decoration:none!important}
+.btn-accent{background:var(--accent)}
+.btn-ghost{background:transparent;color:var(--ink)!important;border:1px solid var(--line)}
+.btn[disabled],.btn.is-disabled{opacity:.45;pointer-events:none}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:12px}
+input[type=text]{flex:1;min-width:220px;border:1px solid var(--line);border-radius:8px;padding:11px 14px;font:inherit;background:#fff;color:var(--ink)}
+input[type=text]:focus{outline:2px solid var(--accent);outline-offset:1px}
+.msg{font-size:13px;margin-top:10px;min-height:1.2em}
+.msg.err{color:#A33A28}
+.msg.ok{color:#2F5D2A}
+.hl{border-color:var(--accent);box-shadow:0 0 0 1px rgba(232,70,43,.15)}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a href="index.html">风格图鉴</a>
+    <a class="here" href="install.html">安装</a>
+    <a href="changelog.html">更新日志</a>
+  </div>
+  <h1>安装 <i>motion-video-styles</i></h1>
+  <p class="lead">Skill 名：<code>motion-video-styles</code>（口播常说 <code>/motion-styles</code>）。<strong>免费档现在就能下</strong>；全量包用兑换码在本页解锁。</p>
+  <p class="lead">版本：免费 <code>v0.1.0-free</code>（12 风格）· 全量 <code>v0.1.0-full</code>（约 127 analysed）。更新见 <a href="changelog.html">changelog</a>。</p>
+</header>
+
+<main>
+  <section>
+    <h2>免费档 · 付费全量</h2>
+    <table class="table">
+      <thead><tr><th>项</th><th>免费档</th><th>付费全量</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>风格 DNA 条目</td>
+          <td><span class="badge badge-free">12 个</span> 完整条目（名单见下方与 changelog）</td>
+          <td><span class="badge badge-full">全量</span> 约 127 analysed（以包内 <code>styles.md</code> 为准）</td>
+        </tr>
+        <tr>
+          <td>开工 SOP / craft / 脚本 / 模板</td>
+          <td>intake + craft + <code>fingerprint</code> / <code>fetch_ref</code> + <code>remotion-starter</code></td>
+          <td>完整 intake / craft / custom-style / scripts / templates（含 narration 等）</td>
+        </tr>
+        <tr>
+          <td>更新</td>
+          <td>见 changelog；免费包按版本号发布</td>
+          <td>持续更新，以 changelog 为准（不空口「每天」）</td>
+        </tr>
+        <tr>
+          <td>下载</td>
+          <td>本页一键 zip</td>
+          <td>兑换码校验后下载</td>
+        </tr>
+        <tr>
+          <td>获取方式</td>
+          <td>免费</td>
+          <td>兑换码解锁 / 标价待挂店</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">图鉴预览帧与短 clip ≠ 已获得可执行 DNA。装 skill 请先下面对应 zip，再解压拷贝。</p>
+  </section>
+
+  <section>
+    <h2>免费档下载 <span class="badge badge-free">v0.1.0-free</span></h2>
+    <p>目录名解压后必须是 <code>motion-video-styles/</code>，根上有 <code>SKILL.md</code>。</p>
+    <div class="row">
+      <a class="btn" href="downloads/motion-video-styles-free-v0.1.0.zip" download>下载免费包 v0.1.0</a>
+    </div>
+    <p class="note">12 slug：editorial-thread · bold-kinetic-launch · kanji-op-titlecard · woodcut-one-accent · swiss-grid-motion · ui-components-alive · onetake-carry · pcb-silk-reel · dark-precision-product · dual-mode-explainer · powers-of-ten-3d · whiteboard-explainer</p>
+  </section>
+
+  <section class="hl" id="unlock">
+    <h2>已有兑换码 → 解锁全量 <span class="badge badge-full">v0.1.0-full</span></h2>
+    <p>全量包通过兑换码下载。购买通道：页内暂用兑换码交付；公开标价与小店链接由作者确认后替换本段。</p>
+    <div class="row">
+      <input type="text" id="license-input" placeholder="BT-XXXX-XXXX-XXXX" autocomplete="off" spellcheck="false" aria-label="兑换码">
+      <button type="button" class="btn btn-accent" id="license-btn">校验解锁</button>
+    </div>
+    <p class="msg" id="license-msg" role="status"></p>
+    <div class="row" id="full-download-wrap" hidden>
+      <a class="btn" id="full-download" href="#" download>下载全量 v0.1.0</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skill 目录结构</h2>
+    <p>装好后目录名必须是 <code>motion-video-styles</code>，且根下有 <code>SKILL.md</code>：</p>
+    <div class="tree">motion-video-styles/
+├── SKILL.md
+├── references/
+│   ├── intake.md
+│   ├── styles.md
+│   ├── craft.md
+│   └── …（全量另含 custom-style / shots 等）
+├── scripts/
+│   ├── fetch_ref.sh
+│   ├── fingerprint.py
+│   └── …
+├── templates/
+│   └── remotion-starter/   ← 免费包含；全量另有更多
+└── LICENSE-*.md</div>
+  </section>
+
+  <section>
+    <h2>装到 Claude Code</h2>
+    <ol>
+      <li>下载对应 zip（免费或全量），解压得到 <code>motion-video-styles/</code>。</li>
+      <li>拷到用户级 skills 目录：</li>
+    </ol>
+    <pre>~/.claude/skills/motion-video-styles/</pre>
+    <pre>cp -R /path/to/motion-video-styles ~/.claude/skills/motion-video-styles</pre>
+    <ol start="3">
+      <li>新开或重载 Claude Code；点名 skill：「用 motion-video-styles 做一条竖屏酷炫小样」。</li>
+      <li>若读不到：检查是否多嵌套一层，以及 <code>SKILL.md</code> 是否在目录根上。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>装到 Cursor</h2>
+    <p>同样先下载 zip、解压，再整包拷到 skills 目录（目录名保持 <code>motion-video-styles</code>）：</p>
+    <h3>用户级</h3>
+    <pre>~/.cursor/skills/motion-video-styles/SKILL.md</pre>
+    <h3>项目级</h3>
+    <pre>&lt;你的项目&gt;/.cursor/skills/motion-video-styles/SKILL.md</pre>
+    <ol>
+      <li><code>cp -R</code> 解压后的整包到上述路径之一。</li>
+      <li>重启 Cursor Agent / 新开对话。</li>
+      <li>写明：「按 skill <code>motion-video-styles</code> 开工」。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>装好后最小验证</h2>
+    <ol>
+      <li>问 agent：「列出 motion-video-styles 里 references 有哪些文件」。</li>
+      <li>提示词：「基于 motion-video-styles，做一个小视频，最大化呈现酷炫效果」——免费档应落在 12 个开放 slug 内。</li>
+      <li>回 <a href="index.html">风格图鉴</a> 对照帧与 6s clip。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>常见问题</h2>
+    <ul>
+      <li><strong>只有图鉴、装不上？</strong> 图鉴是预览；可执行内容在 zip 里的 skill 目录。请先下载免费包或解锁全量包。</li>
+      <li><strong>付费怎么拿？</strong> 全量已支持<strong>兑换码解锁</strong>（本页上方表单）。公开小店与标价由作者确认后挂上；<strong>禁止</strong>私信索要微信/网盘，也不要相信评论区「私信发卡」。</li>
+      <li><strong>更新节奏？</strong> 以 <a href="changelog.html">changelog</a> 为准，表述为持续更新；不承诺「每天」。</li>
+      <li><strong>模型差距？</strong> 同提示词多模型对比属作者实测观感，非第三方评测；本页不提供评测分数。</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p><a href="index.html">← 返回风格图鉴</a> · <a href="changelog.html">更新日志</a> · BigToeArt / 大脚趾 · GitHub Pages</p>
+  <p>Skill 名 <code>motion-video-styles</code> · 静态安装与兑换页 · 非商店结算页</p>
+</footer>
+<script src="js/license.js"></script>
+<script>
+(function () {
+  var input = document.getElementById("license-input");
+  var btn = document.getElementById("license-btn");
+  var msg = document.getElementById("license-msg");
+  var wrap = document.getElementById("full-download-wrap");
+  var link = document.getElementById("full-download");
+
+  async function run() {
+    msg.className = "msg";
+    msg.textContent = "校验中…";
+    wrap.hidden = true;
+    try {
+      var result = await MVSLicense.unlock(input.value);
+      if (!result.ok) {
+        msg.className = "msg err";
+        msg.textContent = result.error;
+        return;
+      }
+      link.href = result.url;
+      wrap.hidden = false;
+      msg.className = "msg ok";
+      msg.textContent = "已解锁 " + result.version + "，可下载。";
+    } catch (e) {
+      msg.className = "msg err";
+      msg.textContent = "校验失败（浏览器需支持 Web Crypto）。请换新版 Chrome / Safari / Firefox 再试。";
+    }
+  }
+  btn.addEventListener("click", run);
+  input.addEventListener("keydown", function (ev) {
+    if (ev.key === "Enter") run();
+  });
+})();
+</script>
+</body>
+</html>
