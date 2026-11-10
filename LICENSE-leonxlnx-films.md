@@ -5,6 +5,7 @@ The styles `shanshui-parallax-album` and `code-photoreal-vista` (batch b23, 2026
 - https://github.com/Leonxlnx/shanshui (film `shanshui.mp4`, release v3): excerpt 4.5–10.5 s. The soundtrack is synthesized by the repository's code and is covered by the same licence.
 - https://github.com/Leonxlnx/golden-temple (film `golden-temple-1080p60.mp4`, release v1.0.0): excerpt 0.3–6.3 s. The music in this excerpt is "Finding Movement" by Kevin MacLeod (incompetech.com), licensed under Creative Commons Attribution 4.0 (https://creativecommons.org/licenses/by/4.0/). It is not covered by the MIT licence.
 - Cited as cases only (no media used): https://github.com/Leonxlnx/athenaion and https://github.com/Leonxlnx/napali (MIT).
+- https://github.com/Leonxlnx/escapement (film `ESCAPEMENT_share.mp4`, release v1.0), used for `clockwork-hypercar-matchcut` (batch b42, 2026-11-10): excerpt 4.0–10.0 s, scaled to 1280×720 at 30 fps. The soundtrack (Mixkit music "Epical Drums 02" by Grigoriy Nuzhny and Mixkit / Freesound CC0 effects) is NOT covered by the MIT licence and was removed; a silent track was added. Copyright (c) 2026 Leon Lin.
 
 We rewrote the style descriptions ourselves. Our changes: excerpted to 6 seconds and transcoded to 1280×720 at 30 fps.
 
