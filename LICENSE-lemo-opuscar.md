@@ -18,6 +18,9 @@ Batch b34 (2026-11-02; changes by us: excerpted to 6 seconds, transcoded to 1280
 
 ---
 
+Batch b38 (2026-11-06; changes by us: excerpted to 6 seconds, transcoded to 1280×720 H.264/AAC at 30 fps from the official web demo). Style `living-screencast` (demo *Clawd Moves In*, 59.4 s, excerpt 10.0–16.0 s). Demo picture under CC BY 4.0, credit LemoLab. Unofficial fan film redrawing a product UI with an original pixel mascot grammar; a user's film should show their own product and mascot. Score/foley samples keep their own licences as listed in the demo CREDITS (e.g. Salamander Grand Piano V3 CC BY, MuldjordKit, Versilian Studios). Voice Kokoro TTS (Apache-2.0). Style description rewritten by us. Hold from b31–b37 lifted after frame verification against one-take-desktop / app-mascot-acting.
+
+
 MIT License
 
 Copyright (c) 2026 LemoLab
@@ -39,3 +42,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+---
+
+## Update 2026-11-15 (batch b47) · Lemo-Opuscar 2.0.0 licence note
+
+Batch b47 adds `pen-plotter-terrain-draw` (upstream `pen-plotter`, film "8848.86", excerpt 16–22 s), `double-exposure-silhouette-window` (upstream `double-exposure`, film "Mountains and Seas", excerpt 1.5–7.5 s), `oscilloscope-phosphor-math` (upstream `oscilloscope-math`, film "The Gibbs Phenomenon", excerpt 17.5–23.5 s), `thermal-camera-night-survey` (upstream `thermal-camera`, film "A Building on a Winter Night", excerpt 7–13 s) and `firefly-point-light-fable` (upstream `firefly-pointillism`, film "Shine Back", excerpt 11–17 s). The excerpts are 6-second cuts of the official demo films (Releases `web`, https://github.com/lemomo-ai/lemo-opuscar), re-encoded to 1280x720 H.264/AAC by us (a change). Credit: **Lemo-Opuscar by Lemomo (LemoLab)**, https://github.com/lemomo-ai/lemo-opuscar, demo films under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); code MIT. The style descriptions were written by us from the films, the MIT demo code and the CREDITS / FACTS / style.json data. As of Lemo-Opuscar 2.0.0 (2026-11-12) the per-style STYLE.md / DEMO.md documents are CC BY-NC 4.0; **none of those documents were read or used for this batch**.
+
+Third-party material heard or seen in the excerpts: Salamander Grand Piano V3 by Alexander Holm, licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/) — in `pen-plotter-terrain-draw` and `double-exposure-silhouette-window`; Versilian Studios VS Chamber Orchestra: Community Edition and Versilian Community Sample Library (CC0); FreePats (CC0); NASADEM HGT v001, NASA JPL (CC0 / no restrictions); photographs by Jon Flobrant, Joe Mania, Pedro Lastra, Osman Rana, Tobias van Schneider (CC0, via Wikimedia Commons); PhyloPic silhouettes (CC0 / Public Domain Mark); cat meow by Tsester (CC0, Wikimedia Commons); Kokoro-82M narration (Apache-2.0); fonts under SIL OFL 1.1 (Relief SingleLine, Noto, JetBrains Mono, STIX Two, IBM Plex Mono, Inter, Newsreader, LXGW WenKai). The six narration tracks that Lemo-Opuscar excludes from CC BY (Edge TTS / Doubao TTS) are not used here.
