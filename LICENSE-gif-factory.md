@@ -6,6 +6,12 @@ The styles `ink-signature-flourish` and `six-fps-storybook-flip` (batch b44, 202
   - `skills/dynamic-art-signature/assets/media/chinese/Woyunjian.mp4` (960×640, 60 fps, 4 s loop): played as designed for 1.5 loops (0–4 s + 0–2 s), scaled to 1080×720, re-encoded at 30 fps, silent audio track added (the upstream file has no audio).
   - `examples/storybooks/tea-party/realbook-writing.mp4` (1920×1080, 6 fps, 54 s): excerpt 33.0–39.0 s, scaled to 1280×720, frames repeated into a 30 fps container (still 6 drawings per second). **The audio was removed**: the case README states the music ("Candle at Dusk", supplied by the author's user) is not licensed under MIT with the code; the CC0 writing sound (SFXMint) is not included either. A silent track was added.
 
+The styles `same-screen-twin-experiment` and `torn-photo-mechanism-collage` (batch b48, 2026-11-16) use 6-second excerpts of official example media and ideas from the same repository's `skills/paper-mechanism-explainer` ("vibe 知识大赏", v0.6.0):
+
+- https://github.com/WoYun520/gif-factory (commit e89003a)
+  - `examples/mechanism-explainers/copper-magnet-same-screen/film.mp4` (1920×1080, 24 fps, 79 s): excerpt 3.5–9.5 s, scaled to 1280×720, re-encoded. **The audio was removed**: the narration was generated with Microsoft Clipchamp's online voice (not covered by the repository licence) and is mixed with the music and foley on one track.
+  - `examples/mechanism-explainers/highlights/film.mp4` (1080×1920, 30 fps, 120 s): excerpt 2.5–8.5 s (zipper segment), cropped to the 1080×1080 main picture (420 px bars above and below removed), scaled to 720×720, re-encoded. **The audio was removed**: it carries Edge TTS narration, "Investigations" by Kevin MacLeod (incompetech.com, CC BY 4.0) and CC0 / Pixabay sound effects, which are not MIT material.
+
 We rewrote the style descriptions ourselves. Licence as stated in the upstream repository (`LICENSE`): MIT License. Case assets are offered by upstream without any promise of exclusive commercial rights.
 
 ```
