@@ -6,6 +6,8 @@ The styles `stick-figure-whip-reel`, `map-route-3d-city` and `hairline-dot-steps
 - `hairline-dot-steps`: `skills/minimalistic-graphics/build.py` with the SKILL.md example spec ("every step feels small." / "until you look back.", 5 steps) plus `"hold": 2.2` → 6.0 s.
 All three were scaled from 1080×1920 to 720 high and padded left/right to 1280×720 (so modified); map-route and minimalistic-graphics are silent upstream and got a silent audio track. Fonts used by the kit are OFL (see the repo's `kit/fonts/OFL-*.txt`). Style descriptions rewritten by us. The repo's sixth skill `/zach-d-films` is a creator-style imitation and was not used.
 
+The style `ps1-lowpoly-story` (batch b56, 2026-11-24) is based on the same repo's skill `low-poly` (added in commit 6374a62, 2026-11-17; read at main 86f7010). Its 6-second sample was rendered by us with the skill's own `build.py` + `template.html` (three.js 0.169.0, HyperFrames 0.8.34) from the SKILL.md example spec ("he waited every day" / "for almost 10 years", sign SHIBUYA / EBISU / HARAJUKU, snow) plus `"hold": 1.2` → 6.0 s, then scaled from 1080×1920 to 720 high and padded left/right with #2A1E14 to 1280×720 (so modified); silent upstream, a silent audio track was added. The same commit's `minecraft`, `zach-3d-films`, `kurzgesagt` and `dan-koe` skills were not used.
+
 ---
 
 MIT License
